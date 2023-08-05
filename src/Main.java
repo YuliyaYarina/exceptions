@@ -9,6 +9,7 @@ public class Main {
            throw ex;
        }catch (Exception ex){
            System.out.println(ex.getMessage());
+
        }
     }
 }

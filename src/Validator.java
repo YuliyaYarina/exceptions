@@ -11,6 +11,7 @@ private final static Pattern regex = Pattern.compile("[A-Za-z0-9_]{0,20}");
             throw new Exception();
         }
 
+
         if (!login.matches(regex.pattern())) {
             throw new WrongLoginException("Логин не должен быть больше 20 символов и должен состоять из латинских символов, чисел и нижнего подчеркивания");
         }
